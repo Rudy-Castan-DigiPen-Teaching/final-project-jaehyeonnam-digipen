@@ -10,12 +10,22 @@ Rect() was used to implement obstacles and characters, and the four weapons made
 
 
 The first weapon used a circle().
+
     circle(v3[p3].position.x+50,this.y,25,25)
+    
+    
 The second weapon used a ellipse().
+
     ellipse(v2[p2].position.x+50,this.y,40,20)
+    
+    
 The third weapon used a rect().
+
     rect(v1[p1].position.x+50,this.y-10,20,20) 
+    
+    
 The fourth weapon used a vertex().
+
     beginShape();
     vertex(0,-10);
     vertex(2*10,-10);
@@ -261,6 +271,9 @@ Classes were used to implement weapons, pipes,birds, etc.
 
 
 Enter the length through the key press and implement the weapon using arrays.
+
+
+*code*
 
 
 for(var p=1; p<v.length; p++)
