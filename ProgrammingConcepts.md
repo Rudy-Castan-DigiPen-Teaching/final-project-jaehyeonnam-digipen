@@ -4,18 +4,18 @@
 
 
 Rect() was used to implement obstacles and characters, and the four weapons made Shape different.
-The first weapon used a circle().
 
-code
+
+*code*
+
+
+The first weapon used a circle().
     circle(v3[p3].position.x+50,this.y,25,25)
 The second weapon used a ellipse().
-code
     ellipse(v2[p2].position.x+50,this.y,40,20)
 The third weapon used a rect().
-code
     rect(v1[p1].position.x+50,this.y-10,20,20) 
 The fourth weapon used a vertex().
-code
     beginShape();
     vertex(0,-10);
     vertex(2*10,-10);
@@ -34,7 +34,9 @@ The colors are different for each weapon, character, in-game, and main screen.
 The code below lists the colors of the weapons in order.
 
 
-code
+*code*
+
+
     fill('#FF5E00'), 
     fill('yellow'), 
     stroke('#0100FF')
@@ -49,7 +51,9 @@ The color of the pipe is black at the bottom and white at the top and the color 
 The color of the background changes whenever the level of difficulty changes. 
 
 
-code
+*code*
+
+
   easy : background('#6092e3')
   normal : background('#6092e3')
   hard : background('#6092e3')
@@ -62,7 +66,9 @@ code
 Var was used to implement pipes, bird, pump, background, level, etc.
 
 
-code
+*code*
+
+
   var bird;
   var pipes;
   var isOver = false;
@@ -95,7 +101,9 @@ code
 Conditional statements were used to allow the character's energy, time limit, bump into a wall, or to function differently whenever the character attacks or jumps.
 
 
-code
+*code*
+
+
   if (pipes[i].hits(bird)) 
     {
       console.log("HITS")
@@ -126,7 +134,9 @@ code
 NoLoop() was used to prevent repetition when the game won or lost, and loop() was used to repeat the song.
 
 
-code
+*code*
+
+
   function gameover() {  
   isOver = true;
   noLoop();
@@ -155,7 +165,9 @@ The key was entered through function keyPressed(), function keyReleased().
 In addition, basic functions and pictures were implemented with function setup() and function draw().
 
 
-code
+*code*
+
+
   function reset() {
   isOver = false;
   pipes = [];
@@ -195,7 +207,9 @@ code
 Classes were used to implement weapons, pipes,birds, etc.
 
 
-code
+*code*
+
+
   class particle{
   constructor(x,y,Length,Angle){
     this.position = new Vec2(x,y);
