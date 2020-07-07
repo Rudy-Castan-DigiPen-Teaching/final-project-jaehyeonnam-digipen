@@ -2,19 +2,15 @@ Topics:
 [Shapes]
 
 Rect() was used to implement obstacles and characters, and the four weapons made Shape different.
-
 The first weapon used a circle().
 <code> 
     circle(v3[p3].position.x+50,this.y,25,25)
-    
 The second weapon used a ellipse().
 <code>
     ellipse(v2[p2].position.x+50,this.y,40,20)
-     
 The third weapon used a rect().
 <code>
-    rect(v1[p1].position.x+50,this.y-10,20,20)
-    
+    rect(v1[p1].position.x+50,this.y-10,20,20) 
 The fourth weapon used a vertex().
 <code>
     beginShape();
@@ -26,10 +22,7 @@ The fourth weapon used a vertex().
     vertex(2*10,10);
     vertex(0,10);
     endShape(CLOSE); 
-    
-  
 [Colors]
-
 The colors are different for each weapon, character, in-game, and main screen.
 The code below lists the colors of the weapons in order.
 <code>
@@ -40,19 +33,15 @@ The code below lists the colors of the weapons in order.
     fill('#4374D9'),
     fill(255,255,255,210)
     stroke('yellow')
-    strokeWeight(5)
-  
-The color of the pipe is black at the bottom and white at the top and the color of the button also changes when you raise the mouse.(use fill())
-  
+    strokeWeight(5)  
+The color of the pipe is black at the bottom and white at the top and the color of the button also changes when you raise the mouse.(use fill()) 
 The color of the background changes whenever the level of difficulty changes. 
 <code>
   easy : background('#6092e3')
   normal : background('#6092e3')
   hard : background('#6092e3')
   main screen, help, level : background('#6092e3')
-
 [Variables]
-
 Var was used to implement pipes, bird, pump, background, level, etc.
 <code>
   var bird;
@@ -79,9 +68,7 @@ Var was used to implement pipes, bird, pump, background, level, etc.
   var level = 36
   var bac = '#00c5cd'
   var o = 960
-
 [Conditional Statements]
-
 Conditional statements were used to allow the character's energy, time limit, bump into a wall, or to function differently whenever the character attacks or jumps.
 <code>
   if (pipes[i].hits(bird)) 
@@ -106,9 +93,7 @@ Conditional statements were used to allow the character's energy, time limit, bu
     l += 10;//l=energy
     l2 += 5;  
   } 
-
 [Loops]
-
 NoLoop() was used to prevent repetition when the game won or lost, and loop() was used to repeat the song.
 <code>
   function gameover() {  
@@ -119,12 +104,10 @@ NoLoop() was used to prevent repetition when the game won or lost, and loop() wa
   isOver = true;
   noLoop();
 }
-  
 function setup() {
   mains.play()
   mains.loop()
  }
-
 [Functions]
 
 function preload() :  uploaded a song.
@@ -160,9 +143,7 @@ In addition, basic functions and pictures were implemented with function setup()
   mains = loadSound('sound/main.mp3')
   shoots = loadSound('sound/shoot.mp3')
   }
-
 [Classes]
-
 Classes were used to implement weapons, pipes,birds, etc.
 <code>
   class particle{
@@ -204,13 +185,10 @@ Classes were used to implement weapons, pipes,birds, etc.
     this.y = y;
   }
 }
-
 [Arrays]
-
 Enter the length through the key press and implement the weapon using arrays.
 for(var p=1; p<v.length; p++)
     {
     }
 Arrays were used to implement pipes.
-
 for (var i = pipes.length - 1; i >= 0; i--) {}
