@@ -39,29 +39,36 @@ There are 3 interface button
 
 
 ### Main menu picture
-![mainscreen](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/ingame.png)
+![mainscreen](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/mainscreen.jpg)
 
 
-
+Here's the first screen.
+The player can press three buttons.
+Press the play button to enter the game.
+Press the level button to determine the difficulty of the game.
+Press the help button to see the rules needed for the game.
 
 
 ### Ingame picture
+![ingame](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/ingame.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+It's the screen of the in game.
+You can jump by pressing the UP_ARROW key.
+You can attack by pressing q,w,e,rkey.
+An attack pushes the laser beam back.
+The top red bar indicates the time limit.
+The blue bar at the bottom represents the energy of the character.
+In the event of an attack, the energy is reduced little by little and re-produced every certain time.
+When the character's energy reaches zero, he dies.
+If you hit a stick or laser beam before the time limit, you die.
 
 
 
 ### Level picture
+![level](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/level.png)
 
+
+There are three levels.
+You can select easy, normal, hard.
+The number of obstacles varies depending on the level of difficulty.
