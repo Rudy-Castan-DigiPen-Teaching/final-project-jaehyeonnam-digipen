@@ -39,7 +39,7 @@ There are 3 interface button
 
 
 ### Main menu picture
-
+![mainscreen](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/ingame.png)
 
 
 
