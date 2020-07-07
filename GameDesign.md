@@ -28,13 +28,15 @@ The red bar at the top means the time limit, which gives players more tension.
 
 ### Main Menu
 
-There are 3 interface button
+There are 4 button in main menu
 
 1.play  : Player can start the game by pressing the play button.
 
 2.level : Player can change difficulty level of game.
 
 3.help : Player can know the rules of the game by pressing the HELP button.
+
+4.credit : Player can see this game developer
 
 
 
