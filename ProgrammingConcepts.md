@@ -3,7 +3,7 @@
 ## Shapes
 
 
-Rect() was used to implement obstacles and characters, and the four weapons made Shape different.
+Rect() was used to implement obstacles and googly eyes characters, and the four weapons made Shape different.
 
 
 *code*
