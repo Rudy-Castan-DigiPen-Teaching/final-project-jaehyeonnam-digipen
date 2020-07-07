@@ -1,6 +1,6 @@
-Topics:
+#Topics:
 
-#Shapes
+##Shapes
 
 Rect() was used to implement obstacles and characters, and the four weapons made Shape different.
 The first weapon used a circle().
@@ -25,7 +25,7 @@ The fourth weapon used a vertex().
     vertex(0,10);
     endShape(CLOSE); 
     
-#Colors
+##Colors
 
 The colors are different for each weapon, character, in-game, and main screen.
 The code below lists the colors of the weapons in order.
@@ -49,7 +49,7 @@ The color of the background changes whenever the level of difficulty changes.
   hard : background('#6092e3')
   main screen, help, level : background('#6092e3')
     
-#Variables
+##Variables
 
 Var was used to implement pipes, bird, pump, background, level, etc.
 
@@ -79,7 +79,7 @@ Var was used to implement pipes, bird, pump, background, level, etc.
   var bac = '#00c5cd'
   var o = 960
     
-#Conditional Statements
+##Conditional Statements
 
 Conditional statements were used to allow the character's energy, time limit, bump into a wall, or to function differently whenever the character attacks or jumps.
 
@@ -107,7 +107,7 @@ Conditional statements were used to allow the character's energy, time limit, bu
     l2 += 5;  
   } 
                 
-#Loops
+##Loops
 
 NoLoop() was used to prevent repetition when the game won or lost, and loop() was used to repeat the song.
 
@@ -127,7 +127,7 @@ function setup() {
   mains.loop()
  }
  
-#Functions
+##Functions
 
 function preload() :  uploaded a song.
 function timeIt(),function timeIt2() : to command every certain time.
@@ -166,8 +166,7 @@ In addition, basic functions and pictures were implemented with function setup()
   shoots = loadSound('sound/shoot.mp3')
   }
   
-#
-Classes
+##Classes
 Classes were used to implement weapons, pipes,birds, etc.
 
 <code>
@@ -214,7 +213,7 @@ Classes were used to implement weapons, pipes,birds, etc.
   }
 }
 
-#Arrays
+##Arrays
 
 Enter the length through the key press and implement the weapon using arrays.
 
