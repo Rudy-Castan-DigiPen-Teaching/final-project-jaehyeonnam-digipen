@@ -1,6 +1,7 @@
-#Topics:
+### Topics
 
-##Shapes
+## Shapes
+
 
 Rect() was used to implement obstacles and characters, and the four weapons made Shape different.
 The first weapon used a circle().
@@ -25,10 +26,13 @@ The fourth weapon used a vertex().
     vertex(0,10);
     endShape(CLOSE); 
     
-##Colors
+    
+## Colors
+
 
 The colors are different for each weapon, character, in-game, and main screen.
 The code below lists the colors of the weapons in order.
+
 
 <code>
     fill('#FF5E00'), 
@@ -40,8 +44,10 @@ The code below lists the colors of the weapons in order.
     stroke('yellow')
     strokeWeight(5)  
     
+    
 The color of the pipe is black at the bottom and white at the top and the color of the button also changes when you raise the mouse.(use fill()) 
 The color of the background changes whenever the level of difficulty changes. 
+
 
 <code>
   easy : background('#6092e3')
@@ -49,9 +55,12 @@ The color of the background changes whenever the level of difficulty changes.
   hard : background('#6092e3')
   main screen, help, level : background('#6092e3')
     
-##Variables
+    
+## Variables
+
 
 Var was used to implement pipes, bird, pump, background, level, etc.
+
 
 <code>
   var bird;
@@ -79,9 +88,12 @@ Var was used to implement pipes, bird, pump, background, level, etc.
   var bac = '#00c5cd'
   var o = 960
     
-##Conditional Statements
+    
+## Conditional Statements
+
 
 Conditional statements were used to allow the character's energy, time limit, bump into a wall, or to function differently whenever the character attacks or jumps.
+
 
 <code>
   if (pipes[i].hits(bird)) 
@@ -106,10 +118,13 @@ Conditional statements were used to allow the character's energy, time limit, bu
     l += 10;//l=energy
     l2 += 5;  
   } 
-                
-##Loops
+         
+         
+## Loops
+
 
 NoLoop() was used to prevent repetition when the game won or lost, and loop() was used to repeat the song.
+
 
 <code>
   function gameover() {  
@@ -117,23 +132,28 @@ NoLoop() was used to prevent repetition when the game won or lost, and loop() wa
   noLoop();
 }
     
+    
   function gamewin() {
   isOver = true;
   noLoop();
 }
+
 
 function setup() {
   mains.play()
   mains.loop()
  }
  
-##Functions
+ 
+## Functions
+
 
 function preload() :  uploaded a song.
 function timeIt(),function timeIt2() : to command every certain time.
 function reset() : reset everything.
 The key was entered through function keyPressed(), function keyReleased().
 In addition, basic functions and pictures were implemented with function setup() and function draw().
+
 
 <code>
   function reset() {
@@ -144,6 +164,7 @@ In addition, basic functions and pictures were implemented with function setup()
   gameoverFrame = frameCount - 1;
   loop();
   }
+    
     
   function gameover() {
   push()
@@ -159,6 +180,7 @@ In addition, basic functions and pictures were implemented with function setup()
   mains.stop()
   }
   
+  
   function preload() {
   wins = loadSound('sound/win.mp3')
   dies = loadSound('sound/die.mp3')
@@ -166,8 +188,12 @@ In addition, basic functions and pictures were implemented with function setup()
   shoots = loadSound('sound/shoot.mp3')
   }
   
-##Classes
+  
+## Classes
+
+
 Classes were used to implement weapons, pipes,birds, etc.
+
 
 <code>
   class particle{
@@ -180,6 +206,7 @@ Classes were used to implement weapons, pipes,birds, etc.
   }
   }
     
+    
   class Bird {
   constructor() {
     this.y = 450;
@@ -191,6 +218,7 @@ Classes were used to implement weapons, pipes,birds, etc.
     this.height = 64;
   }
   }
+  
   
   class Pipe {
   constructor() {
@@ -205,6 +233,7 @@ Classes were used to implement weapons, pipes,birds, etc.
   }
   }
   
+  
   class Vec2{
   constructor(x=0,y=0){
     this.angle = 0;
@@ -213,14 +242,20 @@ Classes were used to implement weapons, pipes,birds, etc.
   }
 }
 
-##Arrays
+
+## Arrays
+
 
 Enter the length through the key press and implement the weapon using arrays.
+
 
 for(var p=1; p<v.length; p++)
     {
     }
     
+    
 Arrays were used to implement pipes.
 
+
 for (var i = pipes.length - 1; i >= 0; i--) {}
+
