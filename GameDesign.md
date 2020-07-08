@@ -75,3 +75,22 @@ If you hit a stick or laser beam before the time limit, you die.
 There are three levels.
 You can select easy, normal, hard.
 The number of obstacles varies depending on the level of difficulty.
+
+
+
+### Credit picture
+![credit](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/credit.png)
+
+
+This is credit screen
+
+
+### Help picture
+![help](https://github.com/Rudy-Castan-DigiPen-Teaching/final-project-jaehyeonnam-digipen/blob/master/help.png)
+
+
+
+This is help screen
+
+
+There are five rules in total.
