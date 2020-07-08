@@ -1,5 +1,5 @@
 //Jaehyeon Nam
-//Velocity Particles Array Exercise
+//Final Project
 //CS099
 //Spring 2020
 class Bird {
